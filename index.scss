@@ -1,0 +1,88 @@
+.product-inclusions {
+
+}
+
+.product-inclusions__header {
+  text-rendering: optimizeLegibility;
+  background: $blue-lightest;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  position: relative;
+  &:after {
+    @include triangle('bottom', 10px, 5px, $blue-lightest);
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    bottom: -5px;
+  }
+}
+
+.product-inclusions__footer {
+  background: #ddd;
+  color: #777;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: -1px;
+  text-rendering: optimizeLegibility;
+}
+
+.product-inclusions__list {
+  border-right: 1px solid #ccc;
+}
+
+.product-inclusions__item {
+  float: left;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 50%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 7px 5px;
+  padding-left: 35px;
+  color: #777;
+  text-rendering: optimizeLegibility;
+  background: no-repeat 10px 50%;
+  background-image: url('../local/product-inclusions/assets/tick-blue-18.png');
+  background-image: url('../local/product-inclusions/assets/tick-blue.svg'), none;
+}
+
+.faux-inclusions__item {
+  position: relative;
+  width: 100%;
+
+  &:before {
+    background: #ccc;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 218px;
+    position: absolute;
+    top: 0;
+    width: 1px;
+  }
+}
+
+.product-inclusions__item--empty {
+  background: none !important;
+}
+
+.product-inclusions--disabled {
+  .product-inclusions__header,
+  .product-inclusions__footer {
+    background: #ddd;
+    color: #777;
+  }
+  .product-inclusions__header:after {
+    @include triangle('bottom', 10px, 5px, #ddd);
+  }
+  .product-inclusions__item {
+    background-image: url('../local/product-inclusions/assets/cross-grey-18.png');
+    background-image: url('../local/product-inclusions/assets/cross-grey.svg'), none;
+  }
+}

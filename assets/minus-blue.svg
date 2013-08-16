@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Slice 1</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page 1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Layer_1" transform="translate(-1.000000, -1.000000)" fill="#088CCC">
+            <path d="M9,0.996 C4.587,0.996 0.996,4.587 0.996,9 C0.996,13.414 4.587,17.004 9,17.004 C13.414,17.004 17.004,13.414 17.004,9 C17.004,4.587 13.414,0.996 9,0.996 L9,0.996 Z M9,15.824 C5.237,15.824 2.175,12.763 2.175,9 C2.175,5.237 5.237,2.175 9,2.175 C12.764,2.175 15.824,5.237 15.824,9 C15.824,12.764 12.764,15.824 9,15.824 L9,15.824 Z M9,15.824" id="Shape"></path>
+            <path d="M12.909,9 C12.909,9.33 12.64,9.596 12.312,9.596 L5.687,9.596 C5.357,9.596 5.091,9.33 5.091,9 L5.091,9 C5.091,8.67 5.358,8.404 5.687,8.404 L12.314,8.404 C12.643,8.404 12.909,8.67 12.909,9 L12.909,9 L12.909,9 Z M12.909,9" id="Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "name": "product-inclusions",
+  "main": "index.scss",
+  "version": "0.0.1",
+  "dependencies": {},
+  "files": [
+    "assets/cross-grey-18.png",
+    "assets/cross-grey.svg",
+    "assets/minus-blue-18.png",
+    "assets/minus-blue.svg",
+    "assets/tick-blue-18.png",
+    "assets/tick-blue.svg"
+  ],
+  "styles": [
+    "index.scss"
+  ]
+}
