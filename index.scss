@@ -54,14 +54,14 @@
 
 .faux-inclusions__item {
   position: relative;
-  width: 100%;
+  width: 438px;
 
   &:before {
     background: #ccc;
     bottom: 0;
     content: "";
     display: block;
-    left: 218px;
+    left: 50%;
     position: absolute;
     top: 0;
     width: 1px;
