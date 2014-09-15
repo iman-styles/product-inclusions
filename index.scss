@@ -1,6 +1,8 @@
-.product-inclusions {
-
+@function product-inclusions-url($path) {
+  @return url("../components/iman-styles-product-inclusions/assets/#{$path}");
 }
+
+.product-inclusions {}
 
 .product-inclusions__header {
   text-rendering: optimizeLegibility;
@@ -48,8 +50,8 @@
   color: #777;
   text-rendering: optimizeLegibility;
   background: no-repeat 10px 50%;
-  background-image: url('../local/product-inclusions/assets/tick-blue-18.png');
-  background-image: url('../local/product-inclusions/assets/tick-blue.svg'), none;
+  background-image: product-inclusions-url('tick-blue-18.png');
+  background-image: product-inclusions-url('tick-blue.svg'), none;
 }
 
 .faux-inclusions__item {
@@ -82,7 +84,7 @@
     @include triangle('bottom', 10px, 5px, #ddd);
   }
   .product-inclusions__item {
-    background-image: url('../local/product-inclusions/assets/cross-grey-18.png');
-    background-image: url('../local/product-inclusions/assets/cross-grey.svg'), none;
+    background-image: product-inclusions-url('cross-grey-18.png');
+    background-image: product-inclusions-url('cross-grey.svg'), none;
   }
 }
